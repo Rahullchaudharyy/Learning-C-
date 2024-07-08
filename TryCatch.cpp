@@ -24,7 +24,7 @@ cout<<"Integer exeception\n";
 cout<<"Float exeception\n";
 
     }catch(...){
-        cout<< "Opps !! Something went wrong \n";
+        cout<< "Opps !! Something went wrong\n";
     }
     
 
