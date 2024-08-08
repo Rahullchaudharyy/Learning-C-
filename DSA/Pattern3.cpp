@@ -63,19 +63,56 @@ int main()
   //      cout<< endl ;
   // }
 
-  for (int m = 1; m <= 5; m++)
+  // int row, Num, s;
+
+  // for (row = 1; row <= 5; row++)
+  // {
+  //   for (s = 5; s > row; s--)
+  //   {
+  //     cout << " ";
+  //   }
+
+  //   for (Num = 1; Num <= row; Num++)
+  //   {
+  //     cout << row;
+  //   }
+  //   cout << endl;
+  // }
+
+  // for (int Row = 1; Row <= 5; Row++)
+  // {
+  //   for (int space = 5; space > Row; space--)
+  //   {
+  //     cout << " ";
+  //   }
+
+  //   char Alpha = 'A';
+
+  //   for (int I = 1; I <= Row; I++)
+  //   {
+  //     cout << Alpha;
+  //     Alpha = Alpha + 1;
+
+  //   }
+
+  //   cout << endl;
+  // }
+
+  int Row, space;
+  for (Row = 1; Row <= 5; Row++)
   {
-    for (int n = 1; n <= 5 - m; n++)
+    for (space = 5; space > Row; space--)
     {
       cout << " ";
     }
-    for (char name = 'A'; name <= 'A' + m - 1; name++)
+
+    for (int num = Row; num >= 1; num--)
     {
-      cout << name<<;
+      cout << num;
     }
 
-    cout << endl;
 
+    cout << endl;
   }
 
   return 0;
