@@ -13,6 +13,9 @@ int main()
         str = str + " *";
     }
 
+
+
+
     int Row, Col;
     for (Row = 1; Row <= 5; Row++)
     {
