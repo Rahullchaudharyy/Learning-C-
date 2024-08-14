@@ -25,7 +25,7 @@ int main(){
    cout<< F<<endl; 
 
   char Name [] = {'a','b','c','d','e'};
-  cout << sizeof Name char;
+  cout << sizeof Name;
 
 
    return 0 ;
