@@ -48,6 +48,8 @@ int main()
     cout << "Please enter the length of an arary :- ";
     cin >> leth;
     cout << "Please enter the element of an arary :- ";
+    bool Swaped ;
+
 
     int array[leth];
     for (int i = 0; i < leth; i++)
@@ -56,14 +58,23 @@ int main()
     }
 
     for (int j = 0; j <= leth; j++)
-    {
+    {   Swaped = 0;
         for (int i = 0; i <= leth - 2; i++)
         {
             if (array[i] < array[i + 1])
             {
+                Swaped = 1 ;
+
                 swap(array[i], array[i + 1]);
             }
         }
+         if (Swaped == 0)
+         {
+           cout<<"Already Shorted ";
+           break;
+         }
+         
+
     }
 
     for (int i = 0; i < leth; i++)
