@@ -1,0 +1,1 @@
+/ Calculate the size of the array
