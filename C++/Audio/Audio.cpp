@@ -11,7 +11,7 @@ static int paCallback(const void *inputBuffer, void *outputBuffer, unsigned long
     
     // Simple pass-through: copying input to output
     for (unsigned long i = 0; i < framesPerBuffer; i++) {
-        out[i] = in[i]; // Here you can apply effects like reverb, pitch shifting, etc.
+        out[i] = in[i]; 
     }
     
     return paContinue;

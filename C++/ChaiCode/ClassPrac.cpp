@@ -14,7 +14,6 @@ class Car{
             year = 2024;
 
         }
-
         void getDetails(){
             cout << "Car Maker :" << make << endl;
             cout << "Car Model :" << model << endl;

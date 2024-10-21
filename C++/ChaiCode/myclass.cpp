@@ -17,8 +17,9 @@ class Exam{
             cout << "Exam marks is " << ExamMarks << endl;
             cout << "Total number of exam " << TotalExams << endl;
 
+             cout<< "Atandees are : \n" ; 
             for(string atandee: Atandees){
-                cout<< atandee << " ";
+                cout <<atandee << " \n";
             }
             for(int num: arr){
                 cout<< num << " ";
@@ -33,14 +34,14 @@ class Exam{
 
 int main() {
 
-    Exam examOne;
+    Exam bcaEcam;
 
-    examOne.ExamName = "No Name";
-    examOne.ExamMarks= 400;
-    examOne.TotalExams= 7;
-    examOne.Atandees = {"Alice", "Bob", "Charlie",  "David",  "Eve",  "Frank","Grace","Hannah","Ivy", "Jack" };
+    bcaEcam.ExamName = "No Name";
+    bcaEcam.ExamMarks= 400;
+    bcaEcam.TotalExams= 7;
+    bcaEcam.Atandees = {"Alice", "Bob", "Charlie",  "David",  "Eve",  "Frank","Grace","Hannah","Ivy", "Jack" };
 
-    examOne.GetExamDetails();
+    bcaEcam.GetExamDetails();
     
 
     return 0;
